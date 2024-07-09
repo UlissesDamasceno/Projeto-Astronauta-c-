@@ -26,10 +26,10 @@ int main(){
 		switch(escolha){
 		case 0: return 0;
 		case 1: Cadastro_de_Astronautas(a);std::cin.ignore();break;
-		case 2: cadastro_de_Voos(a);std::cin.ignore();break;
+		case 2: Cadastro_de_Voos(a);std::cin.ignore();break;
 		case 3: atribuicao(a);break;
 		case 4: desatribuir(a);break;
-		case 5: Lancar_voo(a);break;
+		case 5: lancar_voo(a);break;
 		case 6: Explodir(a); break;
 		}
 	}

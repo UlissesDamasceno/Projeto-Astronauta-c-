@@ -2,7 +2,7 @@
 
 void Explodir(gerenciador &a){
 	int voo_escolhido;
-	cout << "os voos em curso são os seguintes. Escolha (digite o indice): " << endl;
+	cout << "os voos em curso sao os seguintes. Escolha (digite o indice): " << endl;
 	a.exibir_voos_voando();
 	cout << "\n:";
     cin >> voo_escolhido;

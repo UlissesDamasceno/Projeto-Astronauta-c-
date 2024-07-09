@@ -25,7 +25,7 @@ public:
 	void exibir_voos_aguardando();
 	void exibir_voos_com_astronautas();
 	bool checar_voos_com_astronautas();
-	bool exibir_voos_voando();
+	void exibir_voos_voando();
 	void voo_destruido(voo* espaconave);
 	void astronauta_morto(astronauta* tripulante);
 	void explodir_voo(voo* espaconave, int voo_escolhido);
